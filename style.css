@@ -83,3 +83,9 @@ p {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+@media (max-width: 768px) {
+  * {
+    width: 100%;
+  }
+}
